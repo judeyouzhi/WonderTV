@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3C2D7F1B5AA05700AA75FA /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2D7D1B5AA05700AA75FA /* NewsDetailViewController.m */; };
+		1D3C2D801B5AA05700AA75FA /* NewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2D7E1B5AA05700AA75FA /* NewsDetailViewController.xib */; };
+		1D3C2D841B5AAA9200AA75FA /* sand2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2D831B5AAA9200AA75FA /* sand2.jpg */; };
+		1D3C2DBC1B60823E00AA75FA /* WTShimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C2DBB1B60823E00AA75FA /* WTShimmer.m */; };
+		1D3C2DBE1B60D0FA00AA75FA /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DBD1B60D0FA00AA75FA /* launch.png */; };
+		1D3C2DC01B62F67700AA75FA /* champagne-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DBF1B62F67700AA75FA /* champagne-50.png */; };
+		1D3C2DC21B62F6B500AA75FA /* champagne-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DC11B62F6B500AA75FA /* champagne-32.png */; };
+		1D3C2DC41B62F7B100AA75FA /* cornet-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DC31B62F7B100AA75FA /* cornet-32.png */; };
+		1D3C2DC61B62F8A800AA75FA /* administrator-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C2DC51B62F8A800AA75FA /* administrator-32.png */; };
+		1D55085D1B4CA92D002D0BB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55085C1B4CA92D002D0BB0 /* main.m */; };
+		1D5508601B4CA92D002D0BB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D55085F1B4CA92D002D0BB0 /* AppDelegate.m */; };
+		1D5508631B4CA92D002D0BB0 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5508621B4CA92D002D0BB0 /* EventViewController.m */; };
+		1D5508691B4CA92D002D0BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5508671B4CA92D002D0BB0 /* Main.storyboard */; };
+		1D55086B1B4CA92D002D0BB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D55086A1B4CA92D002D0BB0 /* Images.xcassets */; };
+		1D55086E1B4CA92D002D0BB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D55086C1B4CA92D002D0BB0 /* LaunchScreen.xib */; };
+		1D55087A1B4CA92E002D0BB0 /* WonderTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5508791B4CA92E002D0BB0 /* WonderTVTests.m */; };
+		1D5508851B4CB256002D0BB0 /* WTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5508841B4CB256002D0BB0 /* WTLayout.m */; };
+		1D55088A1B4D5AC8002D0BB0 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5508651B4CA92D002D0BB0 /* NewsViewController.m */; };
+		1D55088F1B4D6468002D0BB0 /* i1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D55088E1B4D6468002D0BB0 /* i1.png */; };
+		1D5508921B4D7274002D0BB0 /* i5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5508911B4D7274002D0BB0 /* i5.png */; };
+		1DB589991B54988F00FD7364 /* EventCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB589971B54988F00FD7364 /* EventCollectionViewCell.m */; };
+		1DB5899A1B54988F00FD7364 /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB589981B54988F00FD7364 /* EventCollectionViewCell.xib */; };
+		1DB589A51B57DBDF00FD7364 /* DetailEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB589A31B57DBDF00FD7364 /* DetailEventViewController.m */; };
+		1DB589A61B57DBDF00FD7364 /* DetailEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB589A41B57DBDF00FD7364 /* DetailEventViewController.xib */; };
+		1DB589AA1B59CB1300FD7364 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB589A81B59CB1300FD7364 /* NewsTableViewCell.m */; };
+		1DB589AB1B59CB1300FD7364 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB589A91B59CB1300FD7364 /* NewsTableViewCell.xib */; };
+		4A76EBDC15814AC1BFCE1C3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC35329E4D7265A120ADC1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5508741B4CA92E002D0BB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D55084F1B4CA92D002D0BB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5508561B4CA92D002D0BB0;
+			remoteInfo = WonderTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3C2D7C1B5AA05700AA75FA /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		1D3C2D7D1B5AA05700AA75FA /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		1D3C2D7E1B5AA05700AA75FA /* NewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailViewController.xib; sourceTree = "<group>"; };
+		1D3C2D831B5AAA9200AA75FA /* sand2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sand2.jpg; sourceTree = "<group>"; };
+		1D3C2DBA1B60823E00AA75FA /* WTShimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTShimmer.h; sourceTree = "<group>"; };
+		1D3C2DBB1B60823E00AA75FA /* WTShimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTShimmer.m; sourceTree = "<group>"; };
+		1D3C2DBD1B60D0FA00AA75FA /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		1D3C2DBF1B62F67700AA75FA /* champagne-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champagne-50.png"; sourceTree = "<group>"; };
+		1D3C2DC11B62F6B500AA75FA /* champagne-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champagne-32.png"; sourceTree = "<group>"; };
+		1D3C2DC31B62F7B100AA75FA /* cornet-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cornet-32.png"; sourceTree = "<group>"; };
+		1D3C2DC51B62F8A800AA75FA /* administrator-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "administrator-32.png"; sourceTree = "<group>"; };
+		1D5508571B4CA92D002D0BB0 /* WonderTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WonderTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D55085B1B4CA92D002D0BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D55085C1B4CA92D002D0BB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D55085E1B4CA92D002D0BB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D55085F1B4CA92D002D0BB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D5508611B4CA92D002D0BB0 /* EventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		1D5508621B4CA92D002D0BB0 /* EventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		1D5508641B4CA92D002D0BB0 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		1D5508651B4CA92D002D0BB0 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		1D5508681B4CA92D002D0BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D55086A1B4CA92D002D0BB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D55086D1B4CA92D002D0BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D5508731B4CA92E002D0BB0 /* WonderTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5508781B4CA92E002D0BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5508791B4CA92E002D0BB0 /* WonderTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderTVTests.m; sourceTree = "<group>"; };
+		1D5508831B4CB256002D0BB0 /* WTLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLayout.h; sourceTree = "<group>"; };
+		1D5508841B4CB256002D0BB0 /* WTLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLayout.m; sourceTree = "<group>"; };
+		1D55088E1B4D6468002D0BB0 /* i1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = i1.png; path = Images.xcassets/climb.imageset/i1.png; sourceTree = "<group>"; };
+		1D5508911B4D7274002D0BB0 /* i5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = i5.png; path = Images.xcassets/ice.imageset/i5.png; sourceTree = "<group>"; };
+		1D5508941B4DFCA1002D0BB0 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		1D5508951B4DFDA2002D0BB0 /* WonderTV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WonderTV-Prefix.pch"; sourceTree = "<group>"; };
+		1DB589961B54988F00FD7364 /* EventCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCollectionViewCell.h; sourceTree = "<group>"; };
+		1DB589971B54988F00FD7364 /* EventCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCollectionViewCell.m; sourceTree = "<group>"; };
+		1DB589981B54988F00FD7364 /* EventCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCollectionViewCell.xib; sourceTree = "<group>"; };
+		1DB589A21B57DBDF00FD7364 /* DetailEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailEventViewController.h; sourceTree = "<group>"; };
+		1DB589A31B57DBDF00FD7364 /* DetailEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailEventViewController.m; sourceTree = "<group>"; };
+		1DB589A41B57DBDF00FD7364 /* DetailEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailEventViewController.xib; sourceTree = "<group>"; };
+		1DB589A71B59CB1300FD7364 /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		1DB589A81B59CB1300FD7364 /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		1DB589A91B59CB1300FD7364 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		60C59C73E58EC8109E2D04A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7460B529280AEF78993999FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8FC35329E4D7265A120ADC1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D5508541B4CA92D002D0BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A76EBDC15814AC1BFCE1C3F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5508701B4CA92E002D0BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D55084E1B4CA92D002D0BB0 = {
+			isa = PBXGroup;
+			children = (
+				1D5508591B4CA92D002D0BB0 /* WonderTV */,
+				1D5508761B4CA92E002D0BB0 /* WonderTVTests */,
+				1D5508581B4CA92D002D0BB0 /* Products */,
+				AC03A8F5C9B261C7291B0197 /* Pods */,
+				1FE149241EFA9F526BEC8838 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D5508581B4CA92D002D0BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D5508571B4CA92D002D0BB0 /* WonderTV.app */,
+				1D5508731B4CA92E002D0BB0 /* WonderTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D5508591B4CA92D002D0BB0 /* WonderTV */ = {
+			isa = PBXGroup;
+			children = (
+				1DAB420D1B7D996E001C4012 /* news */,
+				1DAB420C1B7D9948001C4012 /* event */,
+				1D5508931B4DFC88002D0BB0 /* utils */,
+				1D5508901B4D685D002D0BB0 /* pic */,
+				1D55085E1B4CA92D002D0BB0 /* AppDelegate.h */,
+				1D55085F1B4CA92D002D0BB0 /* AppDelegate.m */,
+				1D5508671B4CA92D002D0BB0 /* Main.storyboard */,
+				1D55086A1B4CA92D002D0BB0 /* Images.xcassets */,
+				1D55086C1B4CA92D002D0BB0 /* LaunchScreen.xib */,
+				1D55085A1B4CA92D002D0BB0 /* Supporting Files */,
+			);
+			path = WonderTV;
+			sourceTree = "<group>";
+		};
+		1D55085A1B4CA92D002D0BB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D55085B1B4CA92D002D0BB0 /* Info.plist */,
+				1D55085C1B4CA92D002D0BB0 /* main.m */,
+				1D5508951B4DFDA2002D0BB0 /* WonderTV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5508761B4CA92E002D0BB0 /* WonderTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D5508791B4CA92E002D0BB0 /* WonderTVTests.m */,
+				1D5508771B4CA92E002D0BB0 /* Supporting Files */,
+			);
+			path = WonderTVTests;
+			sourceTree = "<group>";
+		};
+		1D5508771B4CA92E002D0BB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D5508781B4CA92E002D0BB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D5508901B4D685D002D0BB0 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				1D3C2DBD1B60D0FA00AA75FA /* launch.png */,
+				1D3C2D831B5AAA9200AA75FA /* sand2.jpg */,
+				1D5508911B4D7274002D0BB0 /* i5.png */,
+				1D55088E1B4D6468002D0BB0 /* i1.png */,
+				1D3C2DBF1B62F67700AA75FA /* champagne-50.png */,
+				1D3C2DC11B62F6B500AA75FA /* champagne-32.png */,
+				1D3C2DC31B62F7B100AA75FA /* cornet-32.png */,
+				1D3C2DC51B62F8A800AA75FA /* administrator-32.png */,
+			);
+			name = pic;
+			sourceTree = "<group>";
+		};
+		1D5508931B4DFC88002D0BB0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D5508941B4DFCA1002D0BB0 /* Global.h */,
+				1D3C2DBA1B60823E00AA75FA /* WTShimmer.h */,
+				1D3C2DBB1B60823E00AA75FA /* WTShimmer.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		1DAB420C1B7D9948001C4012 /* event */ = {
+			isa = PBXGroup;
+			children = (
+				1D5508831B4CB256002D0BB0 /* WTLayout.h */,
+				1D5508841B4CB256002D0BB0 /* WTLayout.m */,
+				1D5508611B4CA92D002D0BB0 /* EventViewController.h */,
+				1D5508621B4CA92D002D0BB0 /* EventViewController.m */,
+				1DB589961B54988F00FD7364 /* EventCollectionViewCell.h */,
+				1DB589971B54988F00FD7364 /* EventCollectionViewCell.m */,
+				1DB589981B54988F00FD7364 /* EventCollectionViewCell.xib */,
+				1DB589A21B57DBDF00FD7364 /* DetailEventViewController.h */,
+				1DB589A31B57DBDF00FD7364 /* DetailEventViewController.m */,
+				1DB589A41B57DBDF00FD7364 /* DetailEventViewController.xib */,
+			);
+			name = event;
+			sourceTree = "<group>";
+		};
+		1DAB420D1B7D996E001C4012 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				1D5508641B4CA92D002D0BB0 /* NewsViewController.h */,
+				1D5508651B4CA92D002D0BB0 /* NewsViewController.m */,
+				1DB589A71B59CB1300FD7364 /* NewsTableViewCell.h */,
+				1DB589A81B59CB1300FD7364 /* NewsTableViewCell.m */,
+				1DB589A91B59CB1300FD7364 /* NewsTableViewCell.xib */,
+				1D3C2D7C1B5AA05700AA75FA /* NewsDetailViewController.h */,
+				1D3C2D7D1B5AA05700AA75FA /* NewsDetailViewController.m */,
+				1D3C2D7E1B5AA05700AA75FA /* NewsDetailViewController.xib */,
+			);
+			name = news;
+			sourceTree = "<group>";
+		};
+		1FE149241EFA9F526BEC8838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FC35329E4D7265A120ADC1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC03A8F5C9B261C7291B0197 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C59C73E58EC8109E2D04A1 /* Pods.debug.xcconfig */,
+				7460B529280AEF78993999FE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D5508561B4CA92D002D0BB0 /* WonderTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D55087D1B4CA92E002D0BB0 /* Build configuration list for PBXNativeTarget "WonderTV" */;
+			buildPhases = (
+				5346740DA9EA4255053A4800 /* Check Pods Manifest.lock */,
+				1D5508531B4CA92D002D0BB0 /* Sources */,
+				1D5508541B4CA92D002D0BB0 /* Frameworks */,
+				1D5508551B4CA92D002D0BB0 /* Resources */,
+				4FDE76862D292D882B332C8B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WonderTV;
+			productName = WonderTV;
+			productReference = 1D5508571B4CA92D002D0BB0 /* WonderTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D5508721B4CA92E002D0BB0 /* WonderTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5508801B4CA92E002D0BB0 /* Build configuration list for PBXNativeTarget "WonderTVTests" */;
+			buildPhases = (
+				1D55086F1B4CA92E002D0BB0 /* Sources */,
+				1D5508701B4CA92E002D0BB0 /* Frameworks */,
+				1D5508711B4CA92E002D0BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D5508751B4CA92E002D0BB0 /* PBXTargetDependency */,
+			);
+			name = WonderTVTests;
+			productName = WonderTVTests;
+			productReference = 1D5508731B4CA92E002D0BB0 /* WonderTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D55084F1B4CA92D002D0BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HKNTV;
+				TargetAttributes = {
+					1D5508561B4CA92D002D0BB0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1D5508721B4CA92E002D0BB0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1D5508561B4CA92D002D0BB0;
+					};
+				};
+			};
+			buildConfigurationList = 1D5508521B4CA92D002D0BB0 /* Build configuration list for PBXProject "WonderTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D55084E1B4CA92D002D0BB0;
+			productRefGroup = 1D5508581B4CA92D002D0BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D5508561B4CA92D002D0BB0 /* WonderTV */,
+				1D5508721B4CA92E002D0BB0 /* WonderTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D5508551B4CA92D002D0BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB5899A1B54988F00FD7364 /* EventCollectionViewCell.xib in Resources */,
+				1D3C2DC01B62F67700AA75FA /* champagne-50.png in Resources */,
+				1DB589A61B57DBDF00FD7364 /* DetailEventViewController.xib in Resources */,
+				1D3C2DC41B62F7B100AA75FA /* cornet-32.png in Resources */,
+				1D5508921B4D7274002D0BB0 /* i5.png in Resources */,
+				1D3C2D801B5AA05700AA75FA /* NewsDetailViewController.xib in Resources */,
+				1D5508691B4CA92D002D0BB0 /* Main.storyboard in Resources */,
+				1D3C2DC21B62F6B500AA75FA /* champagne-32.png in Resources */,
+				1D55086E1B4CA92D002D0BB0 /* LaunchScreen.xib in Resources */,
+				1D3C2DBE1B60D0FA00AA75FA /* launch.png in Resources */,
+				1D55086B1B4CA92D002D0BB0 /* Images.xcassets in Resources */,
+				1D3C2DC61B62F8A800AA75FA /* administrator-32.png in Resources */,
+				1DB589AB1B59CB1300FD7364 /* NewsTableViewCell.xib in Resources */,
+				1D3C2D841B5AAA9200AA75FA /* sand2.jpg in Resources */,
+				1D55088F1B4D6468002D0BB0 /* i1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5508711B4CA92E002D0BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FDE76862D292D882B332C8B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5346740DA9EA4255053A4800 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5508531B4CA92D002D0BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D55088A1B4D5AC8002D0BB0 /* NewsViewController.m in Sources */,
+				1D5508601B4CA92D002D0BB0 /* AppDelegate.m in Sources */,
+				1DB589A51B57DBDF00FD7364 /* DetailEventViewController.m in Sources */,
+				1D5508851B4CB256002D0BB0 /* WTLayout.m in Sources */,
+				1D3C2DBC1B60823E00AA75FA /* WTShimmer.m in Sources */,
+				1D5508631B4CA92D002D0BB0 /* EventViewController.m in Sources */,
+				1DB589991B54988F00FD7364 /* EventCollectionViewCell.m in Sources */,
+				1DB589AA1B59CB1300FD7364 /* NewsTableViewCell.m in Sources */,
+				1D3C2D7F1B5AA05700AA75FA /* NewsDetailViewController.m in Sources */,
+				1D55085D1B4CA92D002D0BB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D55086F1B4CA92E002D0BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D55087A1B4CA92E002D0BB0 /* WonderTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D5508751B4CA92E002D0BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D5508561B4CA92D002D0BB0 /* WonderTV */;
+			targetProxy = 1D5508741B4CA92E002D0BB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D5508671B4CA92D002D0BB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D5508681B4CA92D002D0BB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D55086C1B4CA92D002D0BB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D55086D1B4CA92D002D0BB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D55087B1B4CA92E002D0BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D55087C1B4CA92E002D0BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D55087E1B4CA92E002D0BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C59C73E58EC8109E2D04A1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WonderTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D55087F1B4CA92E002D0BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7460B529280AEF78993999FE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WonderTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D5508811B4CA92E002D0BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WonderTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WonderTV.app/WonderTV";
+			};
+			name = Debug;
+		};
+		1D5508821B4CA92E002D0BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WonderTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WonderTV.app/WonderTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5508521B4CA92D002D0BB0 /* Build configuration list for PBXProject "WonderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D55087B1B4CA92E002D0BB0 /* Debug */,
+				1D55087C1B4CA92E002D0BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D55087D1B4CA92E002D0BB0 /* Build configuration list for PBXNativeTarget "WonderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D55087E1B4CA92E002D0BB0 /* Debug */,
+				1D55087F1B4CA92E002D0BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D5508801B4CA92E002D0BB0 /* Build configuration list for PBXNativeTarget "WonderTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5508811B4CA92E002D0BB0 /* Debug */,
+				1D5508821B4CA92E002D0BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D55084F1B4CA92D002D0BB0 /* Project object */;
+}

@@ -1,0 +1,23 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# platform :ios
+platform :ios, '7.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+####################################
+pod 'Shimmer', '~> 1.0'
+pod 'RestKit', '~> 0.24.0'
+pod 'MBProgressHUD', '~> 0.9'
+pod 'SDWebImage', '~> 3.7.1'
+#pod 'CocoaHTTPServer'
+#pod 'FLAnimatedImage', '~> 1.0'
+#pod 'CWStatusBarNotification', '~> 2.2.6'
+
+#Autolayout----https://github.com/SnapKit/Masonry
+pod 'Masonry'
+
+#logger---https://github.com/CocoaLumberjack/CocoaLumberjack
+pod 'CocoaLumberjack'
+
